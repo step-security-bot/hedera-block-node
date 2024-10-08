@@ -81,7 +81,7 @@ dependencyResolutionManagement {
             version("com.google.protobuf", protobufVersion)
             version("com.google.protobuf.util", protobufVersion)
 
-            var pbjVersion = "0.9.9"
+            var pbjVersion = "0.9.10-SNAPSHOT"
 
             // PBJ dependencies
             plugin("pbj", "com.hedera.pbj.pbj-compiler").version(pbjVersion)
