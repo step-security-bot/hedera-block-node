@@ -30,6 +30,9 @@ defaults:
 env:
   GRADLE_EXEC: ./gradlew
 
+permissions:
+  contents: read
+
 jobs:
   smoke-test:
     name: "Smoke Tests"

@@ -17,6 +17,9 @@ name: Lint and Test Charts
 
 on: pull_request
 
+permissions:
+  contents: read
+
 jobs:
   lint-install-test:
     name: Lint and Install Charts

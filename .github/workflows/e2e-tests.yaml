@@ -30,6 +30,9 @@ defaults:
 env:
   GRADLE_EXEC: ./gradlew
 
+permissions:
+  contents: read
+
 jobs:
   e2e-tests:
     runs-on: block-node-linux-medium
